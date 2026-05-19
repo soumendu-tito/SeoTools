@@ -14,9 +14,10 @@ import ssl
 import sys
 import textwrap
 import time
+import os
 
 
-HOST = "127.0.0.1"
+HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8010"))
 USER_AGENT = "SeoAuditTool/1.0 (+https://localhost)"
 REQUEST_TIMEOUT = 12
